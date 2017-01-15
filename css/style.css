@@ -1,0 +1,576 @@
+body{
+	font-family: 'Lato', sans-serif;
+}
+.no-padding{
+	padding: 0px;
+}
+ul {
+	list-style: none;
+}
+
+a{
+	color: #333;
+}
+a:hover{
+	color: #fff;
+}
+.center{
+	margin: 0 auto;
+}
+.thin{
+	font-weight: 300;
+}
+/* Header Section CSS */
+.header-social{
+	text-align: right;
+	padding: 20px;
+}
+.phone-number{
+	color: #fe4505;
+	font-size: 18px;
+}
+.login-btn{
+	background-color: #2abdb7;
+	border: 1px solid #2abdb7;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 2px;
+	padding: 6px 20px;
+}
+.login-btn:hover{
+	background-color: #fe4505;
+	border: 1px solid #fe4505;
+	color: #fff;
+	transition-duration: 0.4s;
+}
+.facebook,
+.twitter,
+.linkedin,
+.youtube{
+	width: 38px;
+	height: 40px;
+	border-radius: 50%;
+	box-shadow: 1px 2px 3px rgb(51, 51, 51);
+	padding-top: 10px;
+	padding-right: 13px !important;
+}
+.facebook:hover{
+	cursor: pointer;
+	color: #fff;
+	background-color: #405D9B;
+	transition-duration: 0.4s;
+}
+.twitter:hover{
+	cursor: pointer;
+	color: #fff;
+	background-color: #1DA1F2;
+	transition-duration: 0.4s;
+}
+.linkedin:hover{
+	cursor: pointer;
+	color: #fff;
+	background-color: #0077B5;
+	transition-duration: 0.4s;
+}
+.youtube:hover{
+	cursor: pointer;
+	color: #fff;
+	background-color: #E62117;
+	transition-duration: 0.4s;
+}
+/*banner section css*/
+.banner-im{
+	background: url(../images/banner.png);
+}
+.banner-content{
+	padding-top: 134px;
+	padding-bottom: 132px ;
+}
+.banner-inner-content{
+	background: #edf7f9;
+	padding:60px;
+	text-align: center;
+	height:400px;
+}
+.btn-bnr{
+	padding: 13px 75px !important;
+}
+
+/*content section css*/
+.content{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.content h1{
+	text-transform:uppercase; 
+	padding-bottom: 51px;
+}
+
+/*tab section css*/
+.tab{
+	background: #ebebeb;
+	padding-top: 35px;
+	padding-bottom: 50px;
+}
+.para{
+	margin:0 auto;
+	width:600px;
+	padding-top:40px ;
+	padding-bottom: 30px;
+
+}
+.center-block {
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*digital section*/
+.digital{
+	padding-top:40px ;
+	
+}
+.digital .para-one{
+	width: 750px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+
+/*email section css*/
+.email{
+	background: #bae2f2;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+.email h1{
+	padding-top: 50px;
+}
+.email ul{
+	padding-top: 100px;
+}
+.email ul li{
+	list-style: none;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #eee;
+}
+
+/*mobile section css*/
+.mobile{
+	padding-top:40px ;
+	padding-bottom: 30px;
+}
+
+.mobile .mb-title{
+	color: #ff4848;
+	width: 300px;
+	margin-left: auto;
+	text-transform: uppercase;
+
+}
+.mobile .mobile-text{
+	width: 300px;
+	margin-left: auto;
+	font-size: 18px;
+	padding-top: 40px;
+
+}
+/*laptop section css*/
+.laptop{
+
+	background: #ebebeb;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.laptop .laptop-text{
+	width:300px;
+	text-align: center;
+}
+
+/* Marketing section css */
+.marketing{
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+.left-box{
+	text-align: center;
+}
+.marketing-title{
+	padding-bottom: 55px;
+}
+.right-box{
+	text-align: center;
+}
+.marketing label{
+	width: 140px;
+}
+.text-field{
+	height: 35px;
+	width: 250px;
+	background-color: #eee;
+	border: 1px solid #d1d1d1;
+	font-size: 16px;
+	padding: 10px;
+}
+.btn-primary{
+	padding: 13px 100px;}
+
+.btn-size{
+	margin: 60px 80px;
+}
+
+/* logo-section CSS */
+.logo-sec{
+	background-color: #46c7d2;
+	padding-top: 35px;
+	padding-bottom: 55px;
+}
+.logo-sec h1{
+	color: #fff;
+	padding-bottom: 80px;
+}
+/* business section CSS */
+.pricing-table{
+	padding-top: 35px;
+	padding-bottom: 35px;
+	background-color: #eee;
+}
+.pricing-table h1{
+	padding-bottom: 50px;
+}
+.pricing-bg-color{
+	background-color: #fff;
+	padding: 10px;
+}
+.pricing-inner-border{
+	border: 1px solid #dbdbdb;
+}
+.price-section{
+	background-color: #46c7d2;
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+}
+.price-section:hover{
+	transform: scale(1.1,1.1);
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+.pricing-rate{
+	font-weight: 300;
+	color: #fff;
+	font-size: 26px;
+	text-align: center;
+	padding-top: 35px;
+}
+.prc-text{
+	color:#ff4848;
+}
+.pricing-table p{
+	text-align: center;
+	font-size: 18px;
+	line-height: 32px;
+	border-bottom: 1px dashed #e0e0e0;
+}
+
+/*footer section css*/
+.foot .ft-one{
+	background: #232323;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	color:#72797d;
+
+}
+.foot .ft-two ul li{
+	width: 38px;
+	height: 40px;
+	border-radius: 5px;
+	box-shadow: 1px 2px 3px #58585a;
+	padding-top: 10px;
+	padding-right: 7px !important;
+	margin-right: 15px;
+	background: #58585a;
+	color:#3a3a3a;
+	font-size: 16px;
+}
+
+.foot .ft-two{
+	background: #3a3a3a;
+	padding-top: 35px;
+	padding-bottom:35px;
+	color:#899297;
+}
+.foot .ft-two .ft-text{
+	padding-bottom: 30px;
+}
+.foot .ft-two .ft-txt{
+	padding-top: 50px;
+}
+
+@media screen and (max-width: 480px){
+.header .header-social ul{
+	margin-right: 36px;
+}
+.header img{
+	max-width: 80%;
+	margin: 0 auto;
+}
+.header .youtube{
+	margin-right: 20px;
+}
+.header .facebook, .twitter, .linkedin{
+	margin-right:10px;
+	margin-top: 10px;
+} 
+.banner-im .banner-inner-content{
+padding: 20px;
+}
+.banner-im h1{
+	font-size: 30px;
+}
+.banner-im .btn-primary {
+	padding: 13px 40px;
+}
+.content {
+    padding-top: 10px;
+    padding-bottom:5px;
+}
+.content h1 {
+    margin-top:7px;
+    font-size: 24px;
+    padding-bottom: 3px;
+}
+.content p{
+padding: 5px 20px;
+}
+.tab
+{
+	padding-top: 10px;
+padding-bottom: 10px;
+}
+.tab h1{
+	font-size: 30px;
+}
+.tab .para{
+	padding-top: 14px;
+padding-bottom: 20px;
+padding-left: 13px;
+padding-right: 13px;
+width:unset;
+}
+.tab img{
+padding: 2px 3px;
+}
+.digital{
+	padding-top: 10px;
+padding-bottom: 10px;
+}
+.digital h1{
+font-size: 29px;
+}
+.digital .para-one {
+    margin: 0 auto;
+    padding-bottom: 10px;
+    width: 87%;   
+}
+.email {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.email h1 {
+    padding-top: 5px;
+    font-size: 28px;
+}
+.email ul {
+    padding-top: 10px;
+}
+.mobile {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.mobile .mb-title {
+    font-size: 25px;
+}
+.mobile .mobile-text {
+    padding-top: 5px;
+}
+.laptop {  
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.laptop h1{
+font-size: 28px;
+}
+.marketing {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.marketing h1{
+font-size: 23px;
+padding-bottom: 10px;
+
+}
+.marketing .btn-primary {
+padding: 13px 65x;
+margin: 18px 8px;
+}
+.logo-sec {    
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.logo-sec h1 {  
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+.logo-sec img{
+padding-left: 0px;
+}
+.pricing-table {
+    padding-top: 5px;
+    padding-bottom: 5px;  
+}
+.pricing-table h1{
+	font-size: 23px;
+	padding-bottom: 5px;
+}
+.foot .ft-one {   
+    padding-top: 5px;
+    padding-bottom: 10px;   
+}
+.foot .ft-one h1 {
+	font-size: 19px;
+}
+.foot .ft-two {   
+    padding-top: 15px;
+    padding-bottom: 15px; 
+}
+.foot .ft-two h3 {
+	font-size: 21px;
+}
+.foot .ft-two .ft-txt {
+    padding-top: 20px;
+    font-size: 19px;
+}
+}
+
+@media (min-width:480px) and (max-width:768px)
+{
+.header .hwader-social ul li{
+	margin-bottom: 10px;
+}
+.banner-im .btn-primary {
+    margin-top: 27px;
+}
+.banner-inner-content {
+    height: 368px;
+}
+.content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.content p{
+padding: 5px 20px;
+}
+.content h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+.tab {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.tab h1{
+	font-size: 30px;
+}
+.digital{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.digital h1{
+font-size: 29px;
+}
+.email {
+   padding-top: 15px;
+    padding-bottom: 15px;
+}
+.email ul {
+    padding-top: 10px;
+    margin-left: 159px;
+}
+.email h1 {
+   padding-top: 0;
+   font-size: 28px;
+}
+.mobile {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.mobile .mb-title {
+   font-size:30px;
+   margin: 0 auto;
+}
+.mobile .mobile-text {
+    padding-top: 15px;
+    margin:0 auto;
+    font-size: 16px;
+}
+.mobile img{
+	margin: 0 auto;
+}
+.laptop {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.laptop h1{
+font-size: 25px;
+}
+.marketing {
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+.marketing h1{
+	font-size: 23px;
+	padding-bottom: 10px;
+}
+.marketing .btn-size {
+	padding: 13px 65x;
+	margin-top:31px;
+	margin-left: 215px;
+}
+.logo-sec {  
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.logo-sec h1 {  
+    padding-bottom:25px;
+    font-size: 25px;
+}
+.logo-sec img{
+padding-left: 0px;
+}
+.pricing-table {
+    padding-top: 15px;
+    padding-bottom: 15px; 
+}
+.pricing-table h1{
+	  font-size: 25px;
+	  padding-bottom: 15px;
+}
+.foot .ft-one {
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+.foot .ft-one h1 {
+	font-size: 23px;
+}
+.foot .ft-two {  
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+.foot .ft-two h1 {
+	font-size: 23px;
+}
+.foot .ft-two .ft-txt {
+    padding-top: 23px;
+}
+}
